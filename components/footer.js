@@ -1,22 +1,12 @@
 import Link from 'next/link'
+import styles from '../styles/Home.module.css'
 
 export default function Footer () {
 
     return (
         <div>
             <hr />
-        
-        <div>
-            <p>© Zack Barovsky 2020</p>
-                <ul>
-                    <li>
-                        Github
-                    </li>
-                    <li>
-                        LinkedIn
-                    </li>
-                </ul>
-            </div>
+            <p className='copywrite'>© Zack Barovsky 2020</p>
         </div>
     )
 }
