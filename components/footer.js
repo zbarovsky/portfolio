@@ -4,7 +4,19 @@ export default function Footer () {
 
     return (
         <div>
-            <p>footer goes here</p>
+            <hr />
+        
+        <div>
+            <p>© Zack Barovsky 2020</p>
+                <ul>
+                    <li>
+                        Github
+                    </li>
+                    <li>
+                        LinkedIn
+                    </li>
+                </ul>
+            </div>
         </div>
     )
 }

@@ -16,13 +16,18 @@ export default function Navbar () {
             <navbar>
                 <ul>
                     <li>
-                        <Link href="">
+                        <Link href="/">
                             <a id='home'>Home</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/about">
                             <a>About</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/contact">
+                            <a>Contact</a>
                         </Link>
                     </li>
                 </ul>
