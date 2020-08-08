@@ -16,7 +16,7 @@ export default function Navbar () {
             <navbar>
                 <ul>
                     <li>
-                        <Link href="">
+                        <Link href="/">
                             <a id='home'>Home</a>
                         </Link>
                     </li>
