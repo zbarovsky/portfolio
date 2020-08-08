@@ -4,9 +4,9 @@ import {useEffect} from 'react'
 
 export default function Navbar () {
 
-    useEffect(() => {
-        document.getElementById('home').style.color = 'hotpink'
-    }, [])
+    // useEffect(() => {
+    //     document.getElementById('home').style.color = 'hotpink'
+    // }, [])
 
     return (
         <div>
@@ -23,6 +23,11 @@ export default function Navbar () {
                     <li>
                         <Link href="/about">
                             <a>About</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/contact">
+                            <a>Contact</a>
                         </Link>
                     </li>
                 </ul>
