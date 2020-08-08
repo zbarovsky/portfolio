@@ -6,14 +6,18 @@ import Footer from '../components/footer'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Navbar />
 
-      <main className={styles.main}>
-        <h1>Zack Barovsky</h1>
+      <main>
+        <h1 className='nameHeader'>Zack Barovsky</h1>
+        <h3>about me section</h3>
+        <h3>projects section</h3>
+        <h3>stack imgs section</h3>
+        <h3>contact me section</h3>
       </main>
 
-    
+      <Footer />
     </div>
   )
 }
