@@ -3,7 +3,7 @@ import Navbar from '../components/navbar'
 
 export default function About () {
     return (
-        <div className='aboutme'>
+        <div  id='about' className='aboutme'>
             <div className='aboutMeTitle'>
                 <h3>About Me</h3>
                 <div className='aboutMeBio'>

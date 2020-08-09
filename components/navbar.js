@@ -21,14 +21,17 @@ export default function Navbar () {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/about">
+                        <Link href="#about">
                             <a>About</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/contact">
-                            <a>Contact</a>
+                        <Link href="#project">
+                            <a>Projects</a>
                         </Link>
+                    </li>
+                    <li>
+                        <a href='mailto:zachary.barovsky@gmail.com'>Contact</a>
                     </li>
                 </ul>
             </navbar>

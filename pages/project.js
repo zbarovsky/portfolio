@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Project() {
 
     return (
-        <div className='projects'>
+        <div id='project' className='projects'>
             <div className='encoutertracker'>
                 <div className='encountertrackertitle'>
                     <h3>Encounter Tracker</h3>
