@@ -4,6 +4,7 @@ import Navbar from '../components/navbar'
 import About from './about'
 import Footer from '../components/footer'
 import Techstack from './techstack'
+import Nhead from './nhead'
 
 
 export default function Home() {
@@ -13,9 +14,7 @@ export default function Home() {
         <Navbar />
       </header>
       <main>
-        <div>
-          <h1 className='nameHeader'>Zack Barovsky</h1>
-        </div>
+        <Nhead />
         <Techstack />
         <About />
         <h3>projects section</h3>

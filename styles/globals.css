@@ -69,3 +69,16 @@ li {
   flex-wrap: wrap;
   width: 7em;
 }
+
+.nameHeader {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.name {
+  width: 100%;
+  flex-wrap: wrap;
+  font-size: 15em;
+  margin-bottom: 40px; 
+}
