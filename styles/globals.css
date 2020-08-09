@@ -61,9 +61,10 @@ li {
 .techstack {
   display: flex;
   justify-content: flex-start;
+
 }
 
 .icon {
   flex-wrap: wrap;
-  width: 4em;
+  width: 7em;
 }

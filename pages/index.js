@@ -16,8 +16,8 @@ export default function Home() {
         <div>
           <h1 className='nameHeader'>Zack Barovsky</h1>
         </div>
-        <About />
         <Techstack />
+        <About />
         <h3>projects section</h3>
         <h3>contact me section</h3>
       </main>
