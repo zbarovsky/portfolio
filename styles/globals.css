@@ -27,6 +27,10 @@ li {
   padding-left: 10px;
 }
 
+li:hover {
+  color: #BF0000;
+}
+
 .copywrite {
   display: flex;
   justify-content: start;
@@ -81,4 +85,54 @@ li {
   flex-wrap: wrap;
   font-size: 15em;
   margin-bottom: 40px; 
+}
+
+.encountertracker {
+  display: flex;
+  justify-content: space-between;
+}
+
+.encountertrackertitle {
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+.encountertrackerimg img {
+  flex-wrap: wrap;
+  float: right;
+  width: 45em;
+}
+
+.encountertrackerdesc p {
+  font-size: 1.3em;
+  flex-wrap: wrap;
+  float: inline;
+  width: 30%;
+  margin-bottom: 250px;
+  margin-left: 20px;
+}
+
+.stayinsidetitle {
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+.stayinsideimg img {
+  flex-wrap: wrap;
+  float: right;
+  width: 45em;
+}
+
+.stayinsideimg::after {
+  clear: both;
+  display: table;
+}
+
+.stayinsidedesc p {
+  font-size: 1.3em;
+  flex-wrap: wrap;
+  float: inline;
+  width: 30%;
+  margin-bottom: 300px;
+  margin-left: 20px;
 }

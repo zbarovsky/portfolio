@@ -5,6 +5,7 @@ import About from './about'
 import Footer from '../components/footer'
 import Techstack from './techstack'
 import Nhead from './nhead'
+import Project from './project'
 
 
 export default function Home() {
@@ -17,8 +18,8 @@ export default function Home() {
         <Nhead />
         <Techstack />
         <About />
-        <h3>projects section</h3>
-        <h3>contact me section</h3>
+        <Project />
+        
       </main>
       <footer>
         <Footer />
