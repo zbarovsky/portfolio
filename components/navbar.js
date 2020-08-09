@@ -11,7 +11,7 @@ export default function Navbar () {
     return (
         <div>
             <Head>
-                <title>Zack Barovskly Portfolio</title>
+                <title>Zack Barovsky</title>
             </Head>
             <navbar>
                 <ul>
