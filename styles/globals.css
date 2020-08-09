@@ -44,7 +44,7 @@ li {
 }
 
 .aboutMeBio {
-  width: 600px;
+  width: 55%;
   float: left;
   flex-wrap: wrap;
 }
@@ -58,6 +58,12 @@ li {
   height: 300px;
 }
 
+.techstack {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .icon {
-  width: 5%;
+  flex-wrap: wrap;
+  width: 4em;
 }
