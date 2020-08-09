@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar'
 import About from './about'
 import Footer from '../components/footer'
+import Techstack from './techstack'
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <About />
         <h3>projects section</h3>
         <h3>stack imgs section</h3>
+        <Techstack />
         <h3>contact me section</h3>
       </main>
       <footer>
