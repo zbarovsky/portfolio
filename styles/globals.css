@@ -78,9 +78,8 @@ li:hover {
 
 .techstack {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-bottom: 50px;
-
 }
 
 .icon {
@@ -91,14 +90,13 @@ li:hover {
 .nameHeader {
   display: flex;
   justify-content: flex-end;
-  
 }
 
 .name {
   width: 100%;
   flex-wrap: wrap;
-  font-size: 15em;
-  margin-bottom: 40px; 
+  font-size: 18em;
+  margin-bottom: 60px; 
 }
 
 .encountertracker {
@@ -149,6 +147,6 @@ li:hover {
   flex-wrap: wrap;
   float: inline;
   width: 30%;
-  margin-bottom: 300px;
+  margin-bottom: 325px;
   margin-left: 20px;
 }
