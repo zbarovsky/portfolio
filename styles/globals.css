@@ -47,25 +47,40 @@ li:hover {
   padding-left: 20px;
 }
 
+.aboutMeTitle h3 {
+  font-size: 2.5em;
+}
+
 .aboutMeBio {
   width: 55%;
   float: left;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .aboutMeBio p {
   font-size: 24px;
 }
 
+.resume {
+  font-size: 1.5em; 
+  align-items: center;
+}
+
+.resume:hover {
+  color:#BF0000
+}
+
 .aboutme img {
   width: 300px;
   height: 300px;
+  margin-top: 40px;
 }
 
 .techstack {
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 
 }
 
