@@ -59,7 +59,7 @@ li:hover {
 }
 
 .aboutMeBio p {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .resume {
@@ -149,4 +149,41 @@ li:hover {
   width: 30%;
   margin-bottom: 325px;
   margin-left: 20px;
+}
+
+
+
+@media (max-width: 1024px) {
+  .aboutme {
+    display: inline-flex;
+  }
+
+  .aboutMeBio {
+    width: 100%;
+  }
+  
+  .encountertrackerdesc p {
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .encountertrackertitle {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .stayinsidedesc p {
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .stayinsidetitle {
+    text-align: center;
+    font-size: 2em;
+  }
+
 }
