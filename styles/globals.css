@@ -151,9 +151,51 @@ li:hover {
   margin-left: 20px;
 }
 
+@media (max-width: 480px) {
+  .name {
+    display: none;
+  }
 
+  .techstack {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+  }
+  .aboutme img {
+    display: none;
+    width: 10em;
+    margin-top: 40px;
+  }
+
+  .encountertrackerimg img {
+    flex-wrap: wrap;
+    width: 23em;
+  }
+
+  .encountertrackerdesc p {
+    font-size: 1em;
+    
+  }
+
+  .stayinsideimg img {
+    flex-wrap: wrap;
+    width: 23em;
+  }
+
+  .stayinsidedesc p {
+    font-size: 1em;
+  }
+}
 
 @media (max-width: 1024px) {
+
+  .name {
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 15em;
+    margin-bottom: 60px; 
+  }
   .aboutme {
     display: inline-flex;
   }
