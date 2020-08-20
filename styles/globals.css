@@ -147,9 +147,62 @@ li:hover {
   flex-wrap: wrap;
   float: inline;
   width: 30%;
-  margin-bottom: 325px;
+  margin-bottom: 250px;
   margin-left: 20px;
 }
+
+.breakBreadTitle {
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+.breakBreadimg img {
+  flex-wrap: wrap;
+  float: right;
+  width: 45em;
+  margin-right: 20px;
+}
+
+.breakBreadimg::after {
+  clear: both;
+  display: table;
+}
+
+.breakBreadDesc p {
+  font-size: 1.3em;
+  flex-wrap: wrap;
+  float: inline;
+  width: 30%;
+  margin-bottom: 200px;
+  margin-left: 20px;
+}
+
+.helpWantedTitle {
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+.helpWantedimg img {
+  flex-wrap: wrap;
+  float: right;
+  width: 45em;
+  margin-right: 20px;
+}
+
+.helpWantedimg::after {
+  clear: both;
+  display: table;
+}
+
+.helpWantedDesc p {
+  font-size: 1.3em;
+  flex-wrap: wrap;
+  float: inline;
+  width: 30%;
+  margin-bottom: 300px;
+  margin-left: 20px;
+}
+
 
 @media (max-width: 480px) {
   .name {
@@ -184,6 +237,24 @@ li:hover {
   }
 
   .stayinsidedesc p {
+    font-size: 1em;
+  }
+
+  .breakBreadimg img {
+    flex-wrap: wrap;
+    width: 23em;
+  }
+
+  .breakBreadDesc p {
+    font-size: 1em;
+  }
+
+  .helpWantedimg img {
+    flex-wrap: wrap;
+    width: 23em;
+  }
+
+  .helpWantedDesc p {
     font-size: 1em;
   }
 }
@@ -224,6 +295,30 @@ li:hover {
   }
 
   .stayinsidetitle {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .breakBreadDesc p {
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .breakBreadTitle {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .helpWantedDesc p {
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .helpWantedTitle {
     text-align: center;
     font-size: 2em;
   }

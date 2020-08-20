@@ -5,5 +5,6 @@ export default function Nhead () {
         <div className='nameHeader'>
             <h1 className='name'>Zack Barovsky</h1>
         </div>
+        
     )
 }

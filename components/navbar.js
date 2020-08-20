@@ -27,7 +27,7 @@ export default function Navbar () {
                     </li>
                     <li>
                         <Link href="#project">
-                            <a>Projects</a>
+                            <a>Dev Projects</a>
                         </Link>
                     </li>
                     <li>
