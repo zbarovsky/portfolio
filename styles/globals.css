@@ -65,10 +65,14 @@ li:hover {
 .resume {
   font-size: 1.5em; 
   align-items: center;
+  padding: 10px;
+  background-color: #BF0000;
+  color: white;
+  border-radius: 8px;
 }
 
 .resume:hover {
-  color:#BF0000
+  color: black;
 }
 
 .aboutme img {
