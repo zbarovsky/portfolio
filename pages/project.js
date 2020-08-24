@@ -12,7 +12,7 @@ export default function Project() {
                     <a href='https://encounter-tracker.herokuapp.com/' target='_blank'><img src='/encoutertracker.png' alt='screen shot of encouter tracker website' /> </a>
                 </div>
                 <div className="encountertrackerdesc">
-                    <p>A Dungeons and Dragons combat encouter tracker web application created to help game masters track combat scenaros for their players. It was built with EJS, NodeJs, along with a SQL postgres database with API calls to the dungeons and dragons API.</p>
+                    <p>A Dungeons and Dragons combat encounter tracker web application created to help game masters track combat scenarios for their players. It was built with EJS, NodeJs, along with a SQL postgres database with API calls to the dungeons and dragons API.</p>
                 </div>
             </div>
             <div className='stayinside'>
