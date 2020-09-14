@@ -24,7 +24,7 @@ ul {
 }
 
 li {
-  padding-left: 10px;
+  padding-left: 1vw;
 }
 
 li:hover {
@@ -40,35 +40,35 @@ li:hover {
 .aboutme {
   display: flex;
   justify-content: space-between;
-  padding-right: 20px;
+  padding-right: 1vw;
 }
 
 .aboutMeTitle {
-  padding-left: 20px;
+  padding-left: 2vw;
 }
 
 .aboutMeTitle h3 {
-  font-size: 2.5em;
+  font-size: 3vw;
 }
 
 .aboutMeBio {
-  width: 55%;
+  /* width: 55%; */
   float: left;
   flex-wrap: wrap;
-  margin-bottom: 40px;
+  margin-bottom: 1.5vh;
 }
 
 .aboutMeBio p {
-  font-size: 1.5em;
+  font-size: 2vw;
 }
 
 .resume {
-  font-size: 1.5em; 
+  font-size: 2.8vw; 
   align-items: center;
-  padding: 10px;
+  padding: 1.2vw;
   background-color: #BF0000;
   color: white;
-  border-radius: 8px;
+  border-radius: 1.25vw;
 }
 
 .resume:hover {
@@ -76,19 +76,19 @@ li:hover {
 }
 
 .aboutme img {
-  width: 25em;
-  margin-top: 40px;
+  width: 28vw;
+  margin-top: 3vh;
 }
 
 .techstack {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 3vw;
 }
 
 .icon {
   flex-wrap: wrap;
-  width: 7em;
+  width: 8vw;
 }
 
 .nameHeader {
@@ -99,8 +99,8 @@ li:hover {
 .name {
   width: 100%;
   flex-wrap: wrap;
-  font-size: 18em;
-  margin-bottom: 60px; 
+  font-size: 20vw;
+  margin-bottom: 5vh; 
 }
 
 .encountertracker {
@@ -109,36 +109,35 @@ li:hover {
 }
 
 .encountertrackertitle {
-  margin-left: 20px;
-  font-size: 1.5em;
+  margin-left: 1vw;
+  font-size: 3vw;
 }
 
 .encountertrackerimg img {
   flex-wrap: wrap;
   float: right;
-  width: 45em;
-  margin-right: 20px;
+  width: 55vw;
+  margin-right: 1vw;
 }
 
 .encountertrackerdesc p {
-  font-size: 1.3em;
+  font-size: 2vw;
   flex-wrap: wrap;
   float: inline;
-  width: 30%;
-  margin-bottom: 250px;
-  margin-left: 20px;
+  margin-bottom: 20vh;
+  margin-left: 1vw;
 }
 
 .stayinsidetitle {
-  margin-left: 20px;
-  font-size: 1.5em;
+  margin-left: 1vw;
+  font-size: 3vw;
 }
 
 .stayinsideimg img {
   flex-wrap: wrap;
   float: right;
-  width: 45em;
-  margin-right: 20px;
+  width: 55vw;
+  margin-right: 1vw;
 }
 
 .stayinsideimg::after {
@@ -147,24 +146,23 @@ li:hover {
 }
 
 .stayinsidedesc p {
-  font-size: 1.3em;
+  font-size: 2vw;
   flex-wrap: wrap;
   float: inline;
-  width: 30%;
-  margin-bottom: 250px;
-  margin-left: 20px;
+  margin-bottom: 20vh;
+  margin-left: 1vw;
 }
 
 .breakBreadTitle {
-  margin-left: 20px;
-  font-size: 1.5em;
+  margin-left: 1vw;
+  font-size: 3vw;
 }
 
 .breakBreadimg img {
   flex-wrap: wrap;
   float: right;
-  width: 45em;
-  margin-right: 20px;
+  width: 55vw;
+  margin-right: 1vw;
 }
 
 .breakBreadimg::after {
@@ -173,24 +171,23 @@ li:hover {
 }
 
 .breakBreadDesc p {
-  font-size: 1.3em;
+  font-size: 2vw;
   flex-wrap: wrap;
   float: inline;
-  width: 30%;
-  margin-bottom: 200px;
-  margin-left: 20px;
+  margin-bottom: 15vh;
+  margin-left: 1vw;
 }
 
 .helpWantedTitle {
-  margin-left: 20px;
-  font-size: 1.5em;
+  margin-left: 1vw;
+  font-size: 3vw;
 }
 
 .helpWantedimg img {
   flex-wrap: wrap;
   float: right;
-  width: 45em;
-  margin-right: 20px;
+  width: 55vw;
+  margin-right: 1vw;
 }
 
 .helpWantedimg::after {
@@ -199,132 +196,9 @@ li:hover {
 }
 
 .helpWantedDesc p {
-  font-size: 1.3em;
+  font-size: 2vw;
   flex-wrap: wrap;
   float: inline;
-  width: 30%;
-  margin-bottom: 300px;
-  margin-left: 20px;
-}
-
-
-@media (max-width: 480px) {
-  .name {
-    display: none;
-  }
-
-  .techstack {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    
-  }
-  .aboutme img {
-    display: none;
-    width: 10em;
-    margin-top: 40px;
-  }
-
-  .encountertrackerimg img {
-    flex-wrap: wrap;
-    width: 23em;
-  }
-
-  .encountertrackerdesc p {
-    font-size: 1em;
-    
-  }
-
-  .stayinsideimg img {
-    flex-wrap: wrap;
-    width: 23em;
-  }
-
-  .stayinsidedesc p {
-    font-size: 1em;
-  }
-
-  .breakBreadimg img {
-    flex-wrap: wrap;
-    width: 23em;
-  }
-
-  .breakBreadDesc p {
-    font-size: 1em;
-  }
-
-  .helpWantedimg img {
-    flex-wrap: wrap;
-    width: 23em;
-  }
-
-  .helpWantedDesc p {
-    font-size: 1em;
-  }
-}
-
-@media (max-width: 1024px) {
-
-  .name {
-    width: 100%;
-    flex-wrap: wrap;
-    font-size: 15em;
-    margin-bottom: 60px; 
-  }
-  .aboutme {
-    display: inline-flex;
-  }
-
-  .aboutMeBio {
-    width: 100%;
-  }
-  
-  .encountertrackerdesc p {
-    display: inline-flex;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .encountertrackertitle {
-    text-align: center;
-    font-size: 2em;
-  }
-
-  .stayinsidedesc p {
-    display: inline-flex;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .stayinsidetitle {
-    text-align: center;
-    font-size: 2em;
-  }
-
-  .breakBreadDesc p {
-    display: inline-flex;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .breakBreadTitle {
-    text-align: center;
-    font-size: 2em;
-  }
-
-  .helpWantedDesc p {
-    display: inline-flex;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .helpWantedTitle {
-    text-align: center;
-    font-size: 2em;
-  }
-
+  margin-bottom: 20vh;
+  margin-left: 1vw;
 }
