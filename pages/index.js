@@ -1,6 +1,4 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Navbar from '../components/navbar'
+import Navigation from '../components/navbar'
 import About from './about'
 import Footer from '../components/footer'
 import Techstack from './techstack'
@@ -12,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <header>
-        <Navbar />
+        <Navigation />
       </header>
       <main>
         <Nhead />

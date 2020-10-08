@@ -4,8 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: black;
-  color: white;
+  background-color: #111317;
+  color: #FFF6E5;
 }
 
 a {
@@ -17,17 +17,7 @@ a {
   box-sizing: border-box;
 }
 
-ul {
-  list-style-type:  none;
-  display: flex;
-  justify-content: start;
-}
-
-li {
-  padding-left: 1vw;
-}
-
-li:hover {
+.navigation:hover {
   color: #BF0000;
 } 
 
@@ -37,48 +27,16 @@ li:hover {
   padding: 0, auto;
 }
 
-.aboutme {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 1vw;
-}
-
-.aboutMeTitle {
-  padding-left: 2vw;
-}
-
-.aboutMeTitle h3 {
-  font-size: 3vw;
-}
-
-.aboutMeBio {
-  /* width: 55%; */
-  float: left;
-  flex-wrap: wrap;
-  margin-bottom: 1.5vh;
-}
-
-.aboutMeBio p {
+.resume {
   font-size: 2vw;
 }
 
-.resume {
-  font-size: 2.8vw; 
-  align-items: center;
-  padding: 1.2vw;
-  background-color: #BF0000;
-  color: white;
-  border-radius: 1.25vw;
-}
-
 .resume:hover {
-  color: black;
+  background-color: #BF0000;
 }
 
 .aboutme img {
   width: 28vw;
-  margin-top: 3vh;
-  padding-left: 3vw;
 }
 
 .techstack {
@@ -94,116 +52,30 @@ li:hover {
 
 .nameHeader {
   display: flex;
-  justify-content: flex-end;
 }
 
 .name {
-  width: 100%;
-  flex-wrap: wrap;
   font-size: 20vw;
-  margin-bottom: 5vh; 
 }
 
-.encountertracker {
-  display: flex;
-  justify-content: space-between;
+/* phone sizing */
+@media only screen and (max-width: 550px) {
+  .techstack {
+    display: none;
+  }
 }
 
-.encountertrackertitle {
-  margin-left: 1vw;
-  font-size: 3vw;
-}
+/* Greater than a laptop */
+@media only screen and (min-width: 1600px) {
+  .aboutMe {
+    font-size: 2.5vw;
+  }
 
-.encountertrackerimg img {
-  flex-wrap: wrap;
-  float: right;
-  width: 55vw;
-  margin-right: 1vw;
-  padding-left: 3vw;
-}
+  h2 {
+    font-size: 2vw;
+  }
 
-.encountertrackerdesc p {
-  font-size: 2vw;
-  flex-wrap: wrap;
-  float: inline;
-  margin-bottom: 20vh;
-  margin-left: 1vw;
-}
-
-.stayinsidetitle {
-  margin-left: 1vw;
-  font-size: 3vw;
-}
-
-.stayinsideimg img {
-  flex-wrap: wrap;
-  float: right;
-  width: 55vw;
-  margin-right: 1vw;
-  padding-left: 3vw;
-}
-
-.stayinsideimg::after {
-  clear: both;
-  display: table;
-}
-
-.stayinsidedesc p {
-  font-size: 2vw;
-  flex-wrap: wrap;
-  float: inline;
-  margin-bottom: 20vh;
-  margin-left: 1vw;
-}
-
-.breakBreadTitle {
-  margin-left: 1vw;
-  font-size: 3vw;
-}
-
-.breakBreadimg img {
-  flex-wrap: wrap;
-  float: right;
-  width: 55vw;
-  margin-right: 1vw;
-  padding-left: 3vw;
-}
-
-.breakBreadimg::after {
-  clear: both;
-  display: table;
-}
-
-.breakBreadDesc p {
-  font-size: 2vw;
-  flex-wrap: wrap;
-  float: inline;
-  margin-bottom: 15vh;
-  margin-left: 1vw;
-}
-
-.helpWantedTitle {
-  margin-left: 1vw;
-  font-size: 3vw;
-}
-
-.helpWantedimg img {
-  flex-wrap: wrap;
-  float: right;
-  width: 55vw;
-  margin-right: 1vw;
-  padding-left: 3vw;
-}
-
-.helpWantedimg::after {
-  clear: both;
-  display: table;
-}
-
-.helpWantedDesc p {
-  font-size: 2vw;
-  flex-wrap: wrap;
-  float: inline;
-  margin-bottom: 20vh;
-  margin-left: 1vw;
+  p {
+    font-size: 1.25vw;
+  }
 }
