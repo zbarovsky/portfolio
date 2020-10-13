@@ -1,4 +1,3 @@
-import Navbar from '../components/navbar'
 import {Container, Row, Col, Image, Button} from 'react-bootstrap';
 
 export default function About () {

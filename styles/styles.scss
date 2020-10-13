@@ -1,11 +1,34 @@
+$project-img-width: 75%;
+$project-img-height: 40vw;
+$background: #111317;
+
+$text: #FFF6E5;
+$alt-text: black;
+$grey-text: #C1C7C6;
+$section-padding: 10vh;
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #111317;
-  color: #FFF6E5;
+  background-color: $background;
+  color: $text;
+}
+
+.proj-img {
+    width: $project-img-width;
+    height: $project-img-height;
+    justify-content: center;
+}
+
+.proj-desc {
+    color: $alt-text;
+}
+
+.learn-more {
+    color: $grey-text;
 }
 
 a {
@@ -63,19 +86,9 @@ a {
   .techstack {
     display: none;
   }
+
+  .proj-desc {
+      display: none;
+  }
+
 }
-
-/* Greater than a laptop
-@media only screen and (min-width: 1600px) {
-  .aboutMe {
-    font-size: 2.5vw;
-  }
-
-  h2 {
-    font-size: 2vw;
-  }
-
-  p {
-    font-size: 1.25vw;
-  }
-} */ 
