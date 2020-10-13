@@ -1,0 +1,81 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #111317;
+  color: #FFF6E5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navigation:hover {
+  color: #BF0000;
+} 
+
+.copywrite {
+  display: flex;
+  justify-content: start;
+  padding: 0, auto;
+}
+
+.resume {
+  font-size: 2vw;
+}
+
+.resume:hover {
+  background-color: #BF0000;
+}
+
+.aboutme img {
+  width: 28vw;
+}
+
+.techstack {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3vw;
+}
+
+.icon {
+  flex-wrap: wrap;
+  width: 8vw;
+}
+
+.nameHeader {
+  display: flex;
+}
+
+.name {
+  font-size: 20vw;
+}
+
+/* phone sizing */
+@media only screen and (max-width: 550px) {
+  .techstack {
+    display: none;
+  }
+}
+
+/* Greater than a laptop
+@media only screen and (min-width: 1600px) {
+  .aboutMe {
+    font-size: 2.5vw;
+  }
+
+  h2 {
+    font-size: 2vw;
+  }
+
+  p {
+    font-size: 1.25vw;
+  }
+} */ 

@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -59,11 +59,11 @@ a {
 }
 
 /* phone sizing */
-@media only screen and (max-width: 550px) {
+/* @media only screen and (max-width: 550px) {
   .techstack {
     display: none;
   }
-}
+} */
 
 /* Greater than a laptop
 @media only screen and (min-width: 1600px) {
@@ -78,4 +78,4 @@ a {
   p {
     font-size: 1.25vw;
   }
-} */
+} */ 
