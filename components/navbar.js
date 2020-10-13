@@ -9,12 +9,12 @@ export default function Navigation () {
                 <title>Zack Barovsky</title>
             </Head>
 
-            <Navbar>
+            {/* <Navbar>
                 <Nav.Link className='navigation' href="/">Home</Nav.Link>
                 <Nav.Link className='navigation' href="#about">About</Nav.Link>
                 <Nav.Link className='navigation' href="#project">Dev Projects</Nav.Link>
                 <Nav.Link className='navigation' href='mailto:zachary.barovsky@gmail.com'>Contact</Nav.Link>
-            </Navbar>
+            </Navbar> */}
         </div>
     )
 }
