@@ -59,7 +59,8 @@ a {
 }
 
 .aboutme img {
-  width: 28vw;
+  width: 25vw;
+  float: right;
 }
 
 .techstack {
@@ -85,6 +86,9 @@ a {
 @media only screen and (max-width: 550px) {
   .techstack {
     display: none;
+  }
+  .aboutme img {
+    width: 35vw;
   }
 
   .proj-desc {
