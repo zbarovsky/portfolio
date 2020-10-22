@@ -1,3 +1,23 @@
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content;}
+}
+
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content;}
+}
+
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content;}
+}
+
 $project-img-width: 75%;
 $project-img-height: 40vw;
 $background: #111317;
@@ -25,6 +45,10 @@ body {
 
 .proj-desc {
     color: $alt-text;
+
+    @include for-phone-only() {
+      display: none;
+    }
 }
 
 .learn-more {
@@ -50,23 +74,32 @@ a {
   padding: 0, auto;
 }
 
-.resume {
-  font-size: 2vw;
-}
-
-.resume:hover {
-  background-color: #BF0000;
-}
-
 .aboutme img {
   width: 25vw;
   float: right;
+
+  @include for-phone-only() {
+    width: 80vw;
+    float: left;
+  }
+}
+
+.aboutme {
+  h1 {
+    @include for-phone-only() {
+      width: 15rem;
+    }
+  }
 }
 
 .techstack {
   display: flex;
   justify-content: space-between;
   margin-bottom: 3vw;
+
+  @include for-phone-only() {
+    display: none;
+  }
 }
 
 .icon {
@@ -82,17 +115,23 @@ a {
   font-size: 20vw;
 }
 
-/* phone sizing */
-@media only screen and (max-width: 550px) {
-  .techstack {
-    display: none;
-  }
-  .aboutme img {
-    width: 35vw;
+.socialMedia {
+  width: 5vw;
+  padding-right: 1vw;
+
+  @include for-phone-only() {
+    width: 13vw;
   }
 
-  .proj-desc {
-      display: none;
+  @include for-tablet-portrait-up() {
+    width: 10vw;
   }
 
+  @include for-desktop-up() {
+    width: 5vw;
+  }
+}
+
+.flaticon {
+  color: rgba(255, 246, 229, 0.25);
 }

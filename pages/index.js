@@ -4,6 +4,7 @@ import Footer from '../components/footer'
 import Techstack from './techstack'
 import Nhead from './nhead'
 import Project from './project'
+import Contact from './contact'
 
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
         <Techstack />
         <About />
         <Project />
-        
+        <Contact />
       </main>
       <footer>
         <Footer />
