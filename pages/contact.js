@@ -9,7 +9,7 @@ export default function Contact () {
                 <h2 className='pl-3'>
                     Let's collaborate!
                 </h2>
-                <p className='pl-3'>Connect with me on any of the platforms below, OR checkout my resume and shoot me an email if you're interested in collaborating!</p>
+                <p className='pl-3 letsConnect'>Connect with me on any of the platforms below, OR checkout my resume and shoot me an email if you're interested in collaborating!</p>
             </div>
             <div className='socialmediaSet pl-3'>
                 <a href='https://www.instagram.com/zbarovsky/' target='_blank'><img className='socialMedia' src='/instagram.svg' alt='link for instagram profile'/></a>
