@@ -35,6 +35,13 @@ export default function Project() {
                             <h2 className='proj-desc'>Help Wanted</h2>
                         </Carousel.Caption>
                     </Carousel.Item>
+
+                    <Carousel.Item>
+                        <a href='https://github.com/zbarovsky/cryptocurrency_converter' target='_blank'><img className='proj-img mx-auto d-block' src='/cryptoconverter.png' alt='scrren shot for cryptocurrency converter web page with a link to github on click' /></a>
+                        <Carousel.Caption>
+                            <h2 className='proj-desc'>Cryptocurrency Converter</h2>
+                        </Carousel.Caption>
+                    </Carousel.Item>
                 </Carousel>
             </Container>
         </div>
