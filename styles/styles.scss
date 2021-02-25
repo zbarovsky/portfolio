@@ -115,17 +115,22 @@ a {
 .socialMedia {
   width: 5vw;
   padding-right: 1vw;
+  transition: 0.5s;
 
   @include for-phone-only() {
-    width: 13vw;
-  }
-
-  @include for-tablet-portrait-up() {
     width: 10vw;
   }
 
-  @include for-desktop-up() {
+  @include for-tablet-portrait-up() {
     width: 5vw;
+  }
+
+  @include for-desktop-up() {
+    width: 4vw;
+  }
+
+  &:hover {
+    transform: translate(0, -0.5em)
   }
 }
 
