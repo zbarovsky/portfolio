@@ -1,13 +1,12 @@
 import Head from 'next/head'
+import Meta from './seo-header';
 import {Navbar, Nav} from 'react-bootstrap'
 
 export default function Navigation () {
 
     return (
         <div>
-            <Head>
-                <title>Zack Barovsky</title>
-            </Head>
+            <Meta />
 
             {/* <Navbar>
                 <Nav.Link className='navigation' href="/">Home</Nav.Link>
