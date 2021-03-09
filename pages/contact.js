@@ -4,8 +4,8 @@ export default function Contact () {
 
 
     return (
-        <div>
-            <div className='contact my-5'>
+        <div className='contactContainer'>
+            <div className='contact'>
                 <h2 className='pl-3'>
                     Let's collaborate!
                 </h2>

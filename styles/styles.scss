@@ -18,6 +18,9 @@
   @media (min-width: 1800px) { @content;}
 }
 
+$background-content-max-width: 1920px;
+$mid-content-max-width: 1080px;
+
 $project-img-width: 75%;
 $project-img-height: 40vw;
 $background: #111317;
@@ -35,6 +38,18 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: $background;
   color: $text;
+}
+
+.projectsContainer {
+  max-width: $background-content-max-width;
+
+  div {
+    ol {
+      li {
+        filter: drop-shadow(0 0 .2em black);
+      }
+    }
+  }
 }
 
 .proj-img {
@@ -71,25 +86,26 @@ a {
   padding: 0, auto;
 }
 
-.aboutme img {
-  width: 25vw;
-  float: right;
+// .aboutme img {
+//   width: 25vw;
+//   float: right;
 
-  @include for-phone-only() {
-    width: 80vw;
-    float: left;
-  }
-}
+//   @include for-phone-only() {
+//     width: 80vw;
+//     float: left;
+//   }
+// }
 
-.aboutme {
-  h1 {
-    @include for-phone-only() {
-      width: 15rem;
-    }
-  }
-}
+// .aboutme {
+//   h1 {
+//     @include for-phone-only() {
+//       width: 15rem;
+//     }
+//   }
+// }
 
 .techstack {
+  max-width: $background-content-max-width;
   display: flex;
   justify-content: space-between;
   margin-bottom: 3vw;
@@ -105,6 +121,7 @@ a {
 }
 
 .nameHeader {
+  max-width: $background-content-max-width;
   display: flex;
 }
 
@@ -134,10 +151,54 @@ a {
   }
 }
 
+.contactContainer {
+  max-width: $mid-content-max-width;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 5em;
+}
+
 .letsConnect {
   color: $grey-text;
 }
 
 .flaticon {
   color: rgba(255, 246, 229, 0.25);
+}
+
+.aboutMeContainer {
+  display: flex;
+  max-width: $mid-content-max-width;
+  align-items: center;
+  margin: 0 auto;
+
+  @include for-phone-only() {
+    display: block;
+  }
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  padding-right: 1em;
+
+  @include for-phone-only() {
+    font-size: 0.75rem;
+  }
+}
+
+.profilePic img {
+  width: 18vw;
+  @include for-phone-only() {
+    width: 35vw;
+  }
+}
+
+.profilePic {
+  margin: 0 auto;
+  text-align: center;
 }

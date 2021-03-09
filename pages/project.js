@@ -5,7 +5,7 @@ export default function Project() {
 
     return (
         <div id='project' className='projects'>
-            <Container fluid className="mt-5">
+            <Container fluid className="projectsContainer">
                 <h3>Recent Projects</h3><p className='learn-more'>(Click to learn more)</p>
                 <Carousel>
                     <Carousel.Item>
