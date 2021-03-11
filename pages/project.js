@@ -42,6 +42,13 @@ export default function Project() {
                             <h2 className='proj-desc'>Cryptocurrency Converter</h2>
                         </Carousel.Caption>
                     </Carousel.Item>
+                    
+                    <Carousel.Item>
+                        <a href='https://github.com/zbarovsky/GKI-tracker' rel='noopener' target='_blank'><img className='proj-img mx-auto d-block' src='/bloom.png' alt='screen shot for bloom users profile page' /></a>
+                        <Carousel.Caption>
+                            <h2 className='proj-desc'>Bloom</h2>
+                        </Carousel.Caption>
+                    </Carousel.Item>
                 </Carousel>
             </Container>
         </div>
