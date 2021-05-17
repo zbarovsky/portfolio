@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import {Container, Row, Col, Image, Carousel} from 'react-bootstrap';
 
 export default function Project() {
 
@@ -13,7 +12,12 @@ export default function Project() {
 
     return (
         <div id='project' className='projects'>
-            
+            <div className='recent-projects'><h2>Recent Projects</h2><p className='learn-more'>(Click to Learn More)</p></div>
+            <div className='projectsContainer'>
+                {projects.map((project, i) => (
+                    <img className='projectSmallImgs' key={i} src={project.smallImg} alt={project.alt} />
+                ))}
+            </div>
         </div>
     )
 }

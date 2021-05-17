@@ -40,29 +40,24 @@ body {
   color: $text;
 }
 
-.projectsContainer {
+.projects {
   max-width: $background-content-max-width;
-
-  div {
-    ol {
-      li {
-        filter: drop-shadow(0 0 .2em black);
-      }
-    }
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
-.proj-img {
-    width: $project-img-width;
-    justify-content: center;
+.recent-projects {
+  margin-top: 1em;
 }
 
-.proj-desc {
-    color: $alt-text;
+.projectsContainer {
+  margin-top: 0.75em;
+}
 
-    @include for-phone-only() {
-      display: none;
-    }
+.projectSmallImgs {
+  padding: 1em 0.5em;
 }
 
 .learn-more {
