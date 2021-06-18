@@ -40,29 +40,31 @@ body {
   color: $text;
 }
 
-.projectsContainer {
+.projects {
   max-width: $background-content-max-width;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
 
-  div {
-    ol {
-      li {
-        filter: drop-shadow(0 0 .2em black);
-      }
-    }
+.recent-projects {
+  margin-top: 1em;
+  display: block;
+  width: 100%;
+}
+
+.projectsContainer {
+  margin-top: 0.75em;
+}
+
+.projectSmallImgs {
+  padding: 1em 0.5em;
+  transition: 0.5s;
+
+  &:hover {
+    transform: translate(0, -0.5em)
   }
-}
-
-.proj-img {
-    width: $project-img-width;
-    justify-content: center;
-}
-
-.proj-desc {
-    color: $alt-text;
-
-    @include for-phone-only() {
-      display: none;
-    }
 }
 
 .learn-more {
