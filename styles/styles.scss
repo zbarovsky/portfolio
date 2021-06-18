@@ -50,6 +50,8 @@ body {
 
 .recent-projects {
   margin-top: 1em;
+  display: block;
+  width: 100%;
 }
 
 .projectsContainer {
@@ -58,6 +60,11 @@ body {
 
 .projectSmallImgs {
   padding: 1em 0.5em;
+  transition: 0.5s;
+
+  &:hover {
+    transform: translate(0, -0.5em)
+  }
 }
 
 .learn-more {

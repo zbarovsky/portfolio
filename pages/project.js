@@ -13,11 +13,14 @@ export default function Project() {
     return (
         <div id='project' className='projects'>
             <div className='recent-projects'><h2>Recent Projects</h2><p className='learn-more'>(Click to Learn More)</p></div>
-            <div className='projectsContainer'>
+            {/* <div > */}
                 {projects.map((project, i) => (
-                    <img className='projectSmallImgs' key={i} src={project.smallImg} alt={project.alt} />
+                    <div className='projectsContainer'>
+                        <a rel='noopener' target='_blank' href={project.link}><img className='projectSmallImgs' key={i} src={project.smallImg} alt={project.alt} /></a>
+                        <p>{project.title}</p>
+                    </div>
                 ))}
-            </div>
+            {/* </div> */}
         </div>
     )
 }
