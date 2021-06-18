@@ -109,6 +109,7 @@ a {
   max-width: $background-content-max-width;
   display: flex;
   justify-content: space-between;
+  margin-top: 1.5vw;
   margin-bottom: 3vw;
 
   @include for-phone-only() {
